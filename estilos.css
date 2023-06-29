@@ -1,6 +1,42 @@
-.texto-menor{
+:root {
+    --cor-texto-facilidades: #DAFF01;
+    --cor-fundo-botoes: #9353FF;
+}
+
+.texto-menor {
     font-size: 13px;
 }
-.divs-facilidades{
+
+.divs-facilidades {
     width: 325px;
+}
+
+.divs-facilidades i,
+.divs-facilidades .titulo-facilidades {
+    color: var(--cor-texto-facilidades);
+}
+
+.btn-bombando,
+.btn-promocao {
+    background: var(--cor-fundo-botoes);
+}
+
+.div-novidades {
+    width: 325px;
+}
+
+.bombando .card .card-body {
+    min-height: 221px;
+}
+
+.card-text {
+    font-size: 15px;
+}
+
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
+    }
+
 }
